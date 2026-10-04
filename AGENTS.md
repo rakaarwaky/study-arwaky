@@ -54,6 +54,59 @@ Every session is the same 4-part block, per the field's `field.md`:
 3. Update the quarter `README.md` rotation table and "what Qn-1 unlocks" map.
 4. Leave prior quarters untouched (they're archives, not live).
 
+## Writing style
+
+Applies to **all prose in this repo**: `field.md` intros, `plan.md` text,
+the step-4 "write 2–3 sentences + 1 gap" notes, `README.md`, and any new
+docs or release notes. Do not apply it to checklist items, code
+identifiers, commands, or config keys.
+
+Preserve the writer's voice. Make the minimum effective edit.
+
+Lead with the point. Keep concrete facts: names, dates, numbers, mechanisms.
+
+Use plain verbs and active voice. Use "is" and "has" when they're clearer.
+
+Apply the portability test: if a sentence would fit any product, replace it
+with a specific fact.
+
+Do not invent claims, sources, stats, or examples.
+
+Em dashes are not the default rhythm. Use one or two in long drafts only when
+they beat a comma or period.
+
+Ban binary contrasts. Cut "This is not X, it's Y" and "Not a X. Not a Y. A
+Z." State the preferred option directly.
+
+Cut throat-clearing openers, faux-insight setups, and rhetorical setups.
+
+Ban dramatic colon reveals. Reserve colons for lists, labels, and quotes.
+
+Cut superficial analysis. Drop trailing "-ing" clauses that fake meaning.
+State the cause and effect.
+
+Cut importance puffery. State the fact.
+
+Cut interpretive metadiscourse and dramatic mic-drop endings. End on the
+clearest concrete sentence.
+
+Ban weasel attribution. Name the source or cut the claim.
+
+Stop synonym cycling. Repeat the clear word.
+
+Ban dramatic fragmentation. Use complete sentences.
+
+Cut summary-recap endings. End on the last concrete point or the next action.
+
+Avoid formatting slop. No mid-sentence bolding, no bullets where prose works,
+no headers over short sections. Use code formatting for commands and
+variables.
+
+Ban emoji by default. Use one only for UI status markers, diff glyphs, or
+test results.
+
+Vary sentence shape only when it helps, not on a rhythm.
+
 ## Validation / how to check your edits
 - Grep each `Sxx-*/plan.md` for `- [ ]` to confirm checklists survived.
 - Confirm `field.md` section table row-count matches the actual `Sxx` folders
