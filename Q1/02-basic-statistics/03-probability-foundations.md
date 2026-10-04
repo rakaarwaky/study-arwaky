@@ -1,6 +1,6 @@
 # S03 — Probability Foundations
 
-> Section 3 of 10 in Basic Statistics. 2 subtopics, 14 concepts.
+> Section 3 of 6 in Basic Statistics. 2 subtopics, 14 concepts.
 > See `BasicStatistics.md` for full context.
 
 ## Module checklist

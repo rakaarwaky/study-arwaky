@@ -1,6 +1,6 @@
 # S03 — Systems of Equations
 
-> Section 3 of 12 in Linear Algebra. 7 subtopics, 49 concepts.
+> Section 3 of 8 in Linear Algebra. 7 subtopics, 49 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

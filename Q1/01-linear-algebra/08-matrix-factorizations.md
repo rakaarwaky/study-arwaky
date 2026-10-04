@@ -1,6 +1,6 @@
 # S08 — Matrix Factorizations
 
-> Section 8 of 12 in Linear Algebra. 5 subtopics, 35 concepts.
+> Section 8 of 8 in Linear Algebra. 5 subtopics, 35 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

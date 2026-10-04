@@ -1,6 +1,6 @@
 # S05 — Eigenvalues and Eigenvectors
 
-> Section 5 of 12 in Linear Algebra. 5 subtopics, 35 concepts.
+> Section 5 of 8 in Linear Algebra. 5 subtopics, 35 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

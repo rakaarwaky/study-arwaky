@@ -1,6 +1,6 @@
 # S04 — Determinants
 
-> Section 4 of 12 in Linear Algebra. 4 subtopics, 28 concepts.
+> Section 4 of 8 in Linear Algebra. 4 subtopics, 28 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

@@ -1,6 +1,6 @@
 # S02 — Descriptive Statistics
 
-> Section 2 of 10 in Basic Statistics. 4 subtopics, 28 concepts.
+> Section 2 of 6 in Basic Statistics. 4 subtopics, 28 concepts.
 > See `BasicStatistics.md` for full context.
 
 ## Module checklist

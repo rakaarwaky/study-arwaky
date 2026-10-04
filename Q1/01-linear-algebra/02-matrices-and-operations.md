@@ -1,6 +1,6 @@
 # S02 — Matrices and Operations
 
-> Section 2 of 12 in Linear Algebra. 6 subtopics, 42 concepts.
+> Section 2 of 8 in Linear Algebra. 6 subtopics, 42 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

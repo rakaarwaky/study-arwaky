@@ -1,6 +1,6 @@
 # S07 — Orthogonality
 
-> Section 7 of 12 in Linear Algebra. 4 subtopics, 28 concepts.
+> Section 7 of 8 in Linear Algebra. 4 subtopics, 28 concepts.
 > See `LinearAlgebra.md` for full context.
 
 ## Module checklist

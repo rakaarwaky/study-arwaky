@@ -1,6 +1,6 @@
 # S01 — Getting Started
 
-> Section 1 of 10 in Basic Statistics. 2 subtopics, 14 concepts.
+> Section 1 of 6 in Basic Statistics. 2 subtopics, 14 concepts.
 > See `BasicStatistics.md` for full context.
 
 ## Module checklist

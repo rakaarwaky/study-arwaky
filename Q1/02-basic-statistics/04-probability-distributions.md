@@ -1,6 +1,6 @@
 # S04 — Probability Distributions
 
-> Section 4 of 10 in Basic Statistics. 2 subtopics, 14 concepts.
+> Section 4 of 6 in Basic Statistics. 2 subtopics, 14 concepts.
 > See `BasicStatistics.md` for full context.
 
 ## Module checklist
