@@ -107,6 +107,30 @@ test results.
 
 Vary sentence shape only when it helps, not on a rhythm.
 
+## Writing style — personal preferences
+
+These are non-negotiable. Enforce on every edit, and fix existing files when
+touched.
+
+- **No trailing parentheticals in headers.** `## Gap (what I still don't
+  get)` is banned. Write `## Gap`. The base title carries the meaning; if a
+  clarification is needed, put it in the first sentence of the section, not in
+  the header.
+- **No em-dash as a rhythm crutch.** One or two per draft, only when they
+  beat a comma or period.
+- **No binary-contrast sentences.** Cut "This is not X, it's Y."
+- **No throat-clearing openers or rhetorical setups.** Lead with the point.
+- **No mic-drop or summary-recap endings.** End on the last concrete fact or
+  next action.
+- **No mid-sentence bolding, no headers over short sections, no bullets
+  where prose works.**
+- **No emoji by default.**
+- **No weasel attribution.** Name the source or cut the claim.
+- **No synonym cycling.** Repeat the clear word.
+- **Complete sentences.** No dramatic fragmentation.
+
+Full style rules: see the "Writing style" section above.
+
 ## Validation / how to check your edits
 - Grep each `Sxx-*/plan.md` for `- [ ]` to confirm checklists survived.
 - Confirm `field.md` section table row-count matches the actual `Sxx` folders
