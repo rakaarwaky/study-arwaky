@@ -24,12 +24,12 @@ read and trust data. Without them, any data-driven decision is a guess.
 
 | Order | File | Section | Concepts |
 |-------|------|---------|----------|
-| S01 | [01-getting-started.md](01-getting-started.md) | Getting Started | 14 |
-| S02 | [02-descriptive-statistics.md](02-descriptive-statistics.md) | Descriptive Statistics | 28 |
-| S03 | [03-probability-foundations.md](03-probability-foundations.md) | Probability Foundations | 14 |
-| S04 | [04-probability-distributions.md](04-probability-distributions.md) | Probability Distributions | 14 |
-| S05 | [05-sampling-distributions.md](05-sampling-distributions.md) | Sampling Distributions | 14 |
-| S06 | [06-estimation.md](06-estimation.md) | Estimation | 14 |
+| S01 | [01-getting-started/](01-getting-started/README.md) | Getting Started | 14 |
+| S02 | [02-descriptive-statistics/](02-descriptive-statistics/README.md) | Descriptive Statistics | 28 |
+| S03 | [03-probability-foundations/](03-probability-foundations/README.md) | Probability Foundations | 14 |
+| S04 | [04-probability-distributions/](04-probability-distributions/README.md) | Probability Distributions | 14 |
+| S05 | [05-sampling-distributions/](05-sampling-distributions/README.md) | Sampling Distributions | 14 |
+| S06 | [06-estimation/](06-estimation/README.md) | Estimation | 14 |
 
 ## What you actually finish this quarter
 You study statistics on one of the seven rotation days, so that is one

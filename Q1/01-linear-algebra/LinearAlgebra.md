@@ -25,14 +25,14 @@ software, data, and ML. You cannot understand an ML model without this.
 
 | Order | File | Section | Concepts |
 |-------|------|---------|----------|
-| S01 | [01-vectors-and-spaces.md](01-vectors-and-spaces.md) | Vectors and Spaces | 49 |
-| S02 | [02-matrices-and-operations.md](02-matrices-and-operations.md) | Matrices and Operations | 42 |
-| S03 | [03-systems-of-equations.md](03-systems-of-equations.md) | Systems of Equations | 49 |
-| S04 | [04-determinants.md](04-determinants.md) | Determinants | 28 |
-| S05 | [05-eigenvalues-and-eigenvectors.md](05-eigenvalues-and-eigenvectors.md) | Eigenvalues and Eigenvectors | 35 |
-| S06 | [06-linear-transformations.md](06-linear-transformations.md) | Linear Transformations | 28 |
-| S07 | [07-orthogonality.md](07-orthogonality.md) | Orthogonality | 28 |
-| S08 | [08-matrix-factorizations.md](08-matrix-factorizations.md) | Matrix Factorizations | 35 |
+| S01 | [01-vectors-and-spaces/](01-vectors-and-spaces/README.md) | Vectors and Spaces | 49 |
+| S02 | [02-matrices-and-operations/](02-matrices-and-operations/README.md) | Matrices and Operations | 42 |
+| S03 | [03-systems-of-equations/](03-systems-of-equations/README.md) | Systems of Equations | 49 |
+| S04 | [04-determinants/](04-determinants/README.md) | Determinants | 28 |
+| S05 | [05-eigenvalues-and-eigenvectors/](05-eigenvalues-and-eigenvectors/README.md) | Eigenvalues and Eigenvectors | 35 |
+| S06 | [06-linear-transformations/](06-linear-transformations/README.md) | Linear Transformations | 28 |
+| S07 | [07-orthogonality/](07-orthogonality/README.md) | Orthogonality | 28 |
+| S08 | [08-matrix-factorizations/](08-matrix-factorizations/README.md) | Matrix Factorizations | 35 |
 
 ## What you actually finish this quarter
 You study linear algebra on one of the seven rotation days, so that is one
