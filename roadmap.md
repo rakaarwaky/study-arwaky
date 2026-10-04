@@ -20,7 +20,7 @@
 
 ---
 
-## PHASE 1 — Math foundations (priority #1)
+## PHASE 1 — Math foundations
 **Duration:** ~4–6 months · **Target:** comfort with pre-calc + algebra + basic trig + logic
 
 **Modules (in order):**
@@ -80,7 +80,7 @@
 
 ---
 
-## PHASE 4 — Software Engineering (branch you chose after science)
+## PHASE 4 — Software Engineering
 **Duration:** ~6–9 months (this is a long one — it's a craft)
 
 **Modules (in order, don't skip):**
@@ -141,7 +141,7 @@
 
 ---
 
-## PHASE 7 — Personal Development (runs in the background, always)
+## PHASE 7 — Personal Development
 Not a "phase you finish" — a habit stack:
 - **Health:** 30 min movement/day, 7–8h sleep, protein. (You can't learn on zero sleep.)
 - **Mind:** 10 min daily mindfulness/journaling; read on decision-making & bias
@@ -150,7 +150,7 @@ Not a "phase you finish" — a habit stack:
 
 ---
 
-## The compounding loop (this is the "until I die" part)
+## The compounding loop
 
 After **each** phase's exit test, you do **not** move on and forget. You:
 1. Keep **2 h/week** on spaced review of everything before (Anki).
@@ -160,7 +160,7 @@ After **each** phase's exit test, you do **not** move on and forget. You:
 
 ---
 
-## 90-day kickoff plan (start here)
+## 90-day kickoff plan
 
 | Week | Focus | Hours |
 |------|-------|-------|

@@ -21,14 +21,14 @@ Study/
         └── Sxx-<slug>/plan.md             ← one folder per roadmap section, full checklist
 ```
 
-## The 2-hour daily template (non-negotiable shape)
+## The 2-hour daily template
 Every session is the same 4-part block, per the field's `field.md`:
 1. `0:00–0:05` state the one goal ("by end I can explain X")
 2. `0:05–1:00` input (1–2 videos + read, **this field only**)
 3. `1:00–1:50` practice (solve problems / active task, this field only)
 4. `1:50–2:00` write 2–3 English sentences + 1 gap
 
-## Hard rules (enforce, don't bend)
+## Hard rules
 - **No context switching:** one field per day, one section at a time. Never
   open a second field the same day.
 - **In-order study:** sections are learned `S01 → S12`. Do not skip ahead.
@@ -48,7 +48,7 @@ Every session is the same 4-part block, per the field's `field.md`:
   shape when adding sections.
 - Keep markdown **flat, no nested tables**; one `##` per major block.
 
-## When adding a new quarter (Q2, Q3, …)
+## When adding a new quarter
 1. Make `Qn/` mirroring `Q1/` (README + one folder per field).
 2. Each new field folder = `field.md` + section folders from its source tree.
 3. Update the quarter `README.md` rotation table and "what Qn-1 unlocks" map.

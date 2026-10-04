@@ -1,4 +1,4 @@
-# WEEK10 — Depth: Distributions in real data (log-normal, heavy-tail)
+# WEEK10 — Depth: Distributions in real data
 
 **Field:** F2 — Basic Statistics
 **Week focus:** when normal is wrong.
@@ -9,7 +9,7 @@ Each session = the field's 2-h template. On this field's day, do:
 2. Practice (the field-specific task).
 3. Write 2–3 English sentences + 1 gap.
 
-## Do this week (checklist)
+## Do this week
 - [ ] Input: finished the core videos/read on "Depth: Distributions in real data (log-normal, heavy-tail)".
 - [ ] Practice: did the field task for "Depth: Distributions in real data (log-normal, heavy-tail)" (no hints first).
 - [ ] Output: wrote 2–3 English sentences on the concept.
@@ -18,5 +18,5 @@ Each session = the field's 2-h template. On this field's day, do:
 ## Notes / log
 - 
 
-## Gap (what I still don't get)
+## Gap
 - 

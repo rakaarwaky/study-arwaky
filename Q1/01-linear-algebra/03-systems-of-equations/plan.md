@@ -2,7 +2,7 @@
 > Section 3 of 12 in the roadmap.sh Linear Algebra tree. 7 subtopics, 49 concepts.
 > Full reference: `../roadmap-sh-linear-algebra.md`. See `../field.md` for the 2-h template.
 
-## Study checklist (all concepts in this section)
+## Study checklist
 ### Linear Equations
 - [ ] Linear equation definition
 - [ ] Solutions of linear equations
@@ -75,5 +75,5 @@ Each session = the field's 2-h template (see ../field.md). On this field's day:
 ## Notes / log
 - 
 
-## Gap (what I still don't get)
+## Gap
 - 

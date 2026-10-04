@@ -7,18 +7,18 @@
 ## Why this slice
 Forces, energy, and momentum are the core of physics. Master these and you can read any 'intro physics' and understand what a machine or body is doing. Uses F1 vectors heavily.
 
-## Resources (free)
+## Resources
 **Khan Academy — Physics: Forces & Motion** (primary).
 **3Blue1Brown / Walter Lewin lectures** — intuition layer.
 Practice: any physics problem set.
 
-## 2-hour daily template (F5 only)
+## 2-hour daily template
 - 0:00–0:05 — State goal: "By end I can explain X."
 - 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
 - 1:00–1:50 — Solve 4–5 problems: draw a free-body diagram, find the answer, show work.
 - 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
 
-## 12-Week Map (each is a folder → open its plan)
+## 12-Week Map
 1. [WEEK01 — Kinematics](WEEK01/plan.md)
 2. [WEEK02 — Newton's Laws](WEEK02/plan.md)
 3. [WEEK03 — Forces](WEEK03/plan.md)
@@ -32,5 +32,5 @@ Practice: any physics problem set.
 11. [WEEK11 — Mixed multi-concept problems (energy + momentum + rotation).](WEEK11/plan.md)
 12. [WEEK12 — Capstone & exit test](WEEK12/plan.md)
 
-## Exit test (end of quarter)
+## Exit test
 Derive and explain F = ma, conservation of energy, and one collision problem in your own words; solve 1 mixed free-body + energy problem without hints.

@@ -4,7 +4,7 @@ One field per day, **2 h/day, no context switching**. Rotate the 7 fields Mon–
 Each field is now its own **folder** containing a `field.md` (overview) plus
 `WEEK01…WEEK12/` sub-folders, each with a `plan.md`.
 
-## Weekly rotation (fix Mon–Sun mapping all quarter)
+## Weekly rotation
 | Day | Field | Folder |
 |-----|-------|--------|
 | Mon | F1 Linear Algebra | [01-linear-algebra/](01-linear-algebra/field.md) |
@@ -37,5 +37,5 @@ Each field is now its own **folder** containing a `field.md` (overview) plus
 4. End of each month: 1-h meta-review (decaying → add to Anki; strong → mark done).
 5. Pass a field's **Exit test** (in its `field.md`) before it's "done."
 
-## This week (< 2 min to start)
+## This week
 Open **01-linear-algebra/WEEK01/plan.md** (Monday = F1) and do the checklist.

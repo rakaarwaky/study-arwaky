@@ -7,18 +7,18 @@
 ## Why this slice
 DNA → RNA → protein (central dogma) + inheritance rules are the core of biology. Get these and biochem/evolution become downstream. Builds on F3.
 
-## Resources (free)
+## Resources
 **Khan Academy — Genetics: DNA & inheritance** (primary).
 **CrashCourse Genetics** (fast review).
 **DNA from the Beginning** (University of Utah, interactive) — optional.
 
-## 2-hour daily template (F4 only)
+## 2-hour daily template
 - 0:00–0:05 — State goal: "By end I can explain X."
 - 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
 - 1:00–1:50 — **Active task:** solve 3 Punnett squares; trace DNA→RNA→protein by hand for a short sequence.
 - 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
 
-## 12-Week Map (each is a folder → open its plan)
+## 12-Week Map
 1. [WEEK01 — DNA Structure & Replication](WEEK01/plan.md)
 2. [WEEK02 — Transcription & Translation](WEEK02/plan.md)
 3. [WEEK03 — The Genetic Code](WEEK03/plan.md)
@@ -32,5 +32,5 @@ DNA → RNA → protein (central dogma) + inheritance rules are the core of biol
 11. [WEEK11 — Connect central dogma to a real phenotype](WEEK11/plan.md)
 12. [WEEK12 — Capstone & exit test](WEEK12/plan.md)
 
-## Exit test (end of quarter)
+## Exit test
 Explain the central dogma in 3 sentences (from DNA to a functional protein), solve a dihybrid Punnett square, and state what a point mutation does.
