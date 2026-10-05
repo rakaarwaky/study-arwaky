@@ -75,7 +75,7 @@ It is the component of a lying along b, the foot of the perpendicular from a to 
 
 **Exercises.**
 1. Find the angle between (1, 1, 0) and (1, 0, 1).
-2. Show (2, −1, 3) and (1, 2, 1) are orthogonal.
+2. Find an orthogonal pair of vectors with components from {−3,−1,1,2,3}.
 3. Compute the projection of (1, 2) onto (3, 1).
 4. Verify the triangle inequality for a = (1, 0), b = (0, 1).
 
@@ -121,7 +121,7 @@ a×b = |i  j  k; a₁ a₂ a₃; b₁ b₂ b₃|.
 
 A vector space abstracts the operations of Rⁿ into a structure closed under addition and scalar multiplication. The axioms, subspaces, span, independence, basis, and dimension organize every later argument in the course.
 
-**Vector space axioms.** A vector space is a set V with an addition and a scalar multiplication over a field F, satisfying eight axioms for u, v, w in V and scalars a, b:
+**Vector space axioms.** A vector space is a set V with an addition and a scalar multiplication over a field F, satisfying ten axioms for u, v, w in V and scalars a, b:
 1. Closure: u + v ∈ V.
 2. Commutativity: u + v = v + u.
 3. Associativity: (u + v) + w = u + (v + w).
@@ -130,6 +130,8 @@ A vector space abstracts the operations of Rⁿ into a structure closed under ad
 6. Scalar closure: au ∈ V.
 7. Distributivity: a(u + v) = au + av.
 8. Scalar associativity: a(bu) = (ab)u.
+9. Identity scalar: 1·u = u.
+10. Zero scalar: 0·u = 0.
 
 Rⁿ, the space of polynomials of degree at most n, the m×n matrices, and function spaces are the standard examples.
 
@@ -251,7 +253,7 @@ This section moves from a fixed coordinate frame to a changed one, and then to t
 
 **Annihilator subspaces.** For a subspace W of V, the annihilator W⁰ = {f ∈ V* : f(w) = 0 for all w ∈ W} is a subspace of V*. It consists of all linear functionals that vanish on W. In finite dimensions, dim W + dim W⁰ = dim V, so the annihilator plays the dual role of the orthogonal complement: just as W⊥ is the set of vectors orthogonal to W, W⁰ is the set of functionals zero on W. For a subspace of Rⁿ given by linear equations, its annihilator is exactly the solution space of those equations.
 
-**Worked example.** Let V = R² and B = {(1, 0), (0, 1)}. A second basis B′ = {(1, 1), (1, −1)} gives P from B′ to B as [[1, 1], [1, −1]]. A vector v with B′-coordinates (a, b) has B-coordinates (a + b, a − b). The dual basis of B′ is {e₁*, e₂*} with e₁*(1, 0) = 1, e₁*(0, 1) = 1, and e₂*(1, 0) = 1, e₂*(0, 1) = −1. The annihilator of the line span{(1, 1)} is the set of functionals (p, q) with p + q = 0, i.e. the line span{(1, −1)} in V*.
+**Worked example.** Let V = R² and B = {(1, 0), (0, 1)}. A second basis B′ = {(1, 1), (1, −1)} gives P from B′ to B as [[1, 1], [1, −1]]. A vector v with B′-coordinates (a, b) has B-coordinates (a + b, a − b). The dual basis of B′ is {e₁*, e₂*} with e₁* = (1/2, 1/2) and e₂* = (1/2, −1/2), so e₁*(1,0) = e₁*(0,1) = 1/2 and e₂*(1,0) = 1/2, e₂*(0,1) = −1/2. The annihilator of the line span{(1, 1)} is the set of functionals (p, q) with p + q = 0, i.e. the line span{(1, −1)} in V*.
 
 **Exercises.**
 1. Given P = [[1, 1], [0, 1]], find [v]_B′ if [v]_B = (1, 0).

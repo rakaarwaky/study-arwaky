@@ -1,25 +1,13 @@
 # Linear Algebra — Field Doc
 
-> One specific sub-field. ~26 h over the quarter.
-> **Unlocks:** Machine Learning (Q2) + Software Engineering (Q3).
-> **No context switching:** this field only on your assigned day.
-> Structure: sections S01-S08.
-
 ## Why this slice
 Vectors, matrices, and linear transformations are the actual math that powers
 software, data, and ML. You cannot understand an ML model without this.
 
-## Resources
-- **3Blue1Brown — *Essence of Linear Algebra*** (YouTube, 15-part). Primary.
-- **Khan Academy — Linear Algebra** (adaptive, problem sets).
-- **MIT 18.06 (Gilbert Strang)** (optional depth).
-- **Khan Academy — Linear Algebra** (adaptive, problem sets).
-
-## 2-hour daily template
-- 0:00-0:05 — State goal: "By end I can explain X."
-- 0:05-1:00 — Input: 1-2 focused videos + read (this field only).
-- 1:00-1:50 — Solve 5-8 Khan problems on that topic. No hints first.
-- 1:50-2:00 — Write 2-3 sentences (in English) on what I learned + 1 gap.
+## Plan
+1 Input: learning content .
+2 Solve  problems on that topic.
+3 Write Essay on what I learned .
 
 ## The sections in order S01-S08
 
@@ -42,7 +30,4 @@ Work the sections in order S01 to S08 as a pipeline. You will get through the
 first third in this quarter and carry the rest into Q2. Do not try to cover all
 forty-two subtopics in twelve weeks.
 
-## Exit test
-Explain what a linear transformation is and what an eigenvalue means, from
-memory, in three sentences each. Explain what the SVD does and why it matters
-for ML. Solve one mixed system without hints.
+
