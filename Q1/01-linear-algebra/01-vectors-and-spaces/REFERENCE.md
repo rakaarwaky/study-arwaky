@@ -34,6 +34,17 @@ A vector is an object with magnitude and direction. Geometrically it is drawn as
 1. For a = (1, 2, 2), find |a|, â, and its direction cosines.
 2. Given P(2, −1) and Q(5, 3), find PQ, its magnitude, and its unit direction.
 
+**Concept summary.**
+
+| Concept | Geometric reading | Algebraic formula (R³) |
+|---|---|---|
+| Vector | An object with magnitude and direction, drawn as an arrow. | An ordered triple (v₁, v₂, v₃), usually a column. |
+| Vector addition | Parallelogram or triangle rule. | Componentwise: a + b = (a₁+b₁, a₂+b₂, a₃+b₃). |
+| Scalar multiplication | Scale the arrow by c; reverse it if c < 0. | c·a = (ca₁, ca₂, ca₃). |
+| Magnitude | Length of the arrow. | a = √(a₁² + a₂² + a₃²). |
+| Unit vector | Arrow of length 1 in the same direction. | â = a / a. |
+| Direction cosines | Cosines of the angles with the x, y, z axes. | l = a₁/a, m = a₂/a, n = a₃/a, with l² + m² + n² = 1. |
+
 ---
 
 ## 2. Vector Dot Product
@@ -52,7 +63,7 @@ The dot (scalar) product of two vectors returns a scalar. It measures how much t
 
 proj_b a = (a·b / |b|²) b.
 
-It is the component of a lying along b, the foot of the perpendicular from a to the line through b.
+It is the component of a lying along b, the foot of the perpendicular from a to the line through b. The vector rejection of a from b, a − proj_b a, is the component of a perpendicular to b, so a decomposes uniquely into the sum of its projection onto b and its rejection.
 
 **Cauchy–Schwarz inequality.** |a·b| ≤ |a||b|, with equality if and only if a and b are linearly dependent (one is a scalar multiple of the other). Proof sketch: the expression a·b − t(a·a) is a nonnegative quadratic in t whose discriminant is nonpositive, which yields (a·b)² ≤ (a·a)(b·b). Taking square roots gives the result.
 
@@ -88,7 +99,7 @@ a×b = |i  j  k; a₁ a₂ a₃; b₁ b₂ b₃|.
 
 **Torque physics applications.** Torque τ = r×F, where r is the position vector from the pivot and F the applied force. Angular momentum L = r×p, and torque is its time derivative, τ = dL/dt. The magnetic force on a moving charge is F = qv×B. In each case the result is perpendicular to the input vectors and its magnitude scales with sin θ.
 
-**Triple scalar product.** The scalar triple product (a×b)·c is the signed volume of the parallelepiped spanned by a, b, c. It equals the determinant |a b c| of the matrix with rows a, b, c, and it is zero exactly when the three vectors are coplanar. It is also associative: (a×b)·c = a·(b×c).
+**Triple scalar product.** The scalar triple product (a×b)·c is the signed volume of the parallelepiped spanned by a, b, c. It equals the determinant |a b c| of the matrix with rows a, b, c, and it is zero exactly when the three vectors are coplanar. It is also cyclic: (a×b)·c = (b×c)·a = (c×a)·b. The related vector triple product a×(b×c) is not associative and obeys the bac-cab rule: a×(b×c) = b(a·c) − c(a·b). This identity is the standard tool for expanding nested cross products.
 
 **Right hand rule convention.** Point the fingers of the right hand along a, curl them toward b; the thumb points along a×b. This fixes the orientation. Reversing the order reverses the result: a×b = −(b×a).
 
@@ -171,6 +182,17 @@ Proof: row-reduce A to echelon form with k pivots. The k pivots give a k-dimensi
 1. For A = [[1, 1, 1], [2, 3, 4]], find rank, nullity, and a null-space basis.
 2. Show the left null space of A is the orthogonal complement of its column space.
 
+**Dimensional census.** For an m × n matrix A of rank r, the four fundamental subspaces decompose the domain and codomain into pairs of orthogonal complements:
+
+| Subspace | Definition | Ambient space | Dimension |
+|---|---|---|---|
+| Column space C(A) | All combinations of the columns, the range of Ax. | Rᵐ | r |
+| Row space C(Aᵀ) | All combinations of the rows, the column space of Aᵀ. | Rⁿ | r |
+| Null space N(A) | Solutions of Ax = 0, the kernel. | Rⁿ | n − r |
+| Left null space N(Aᵀ) | Solutions of Aᵀy = 0, orthogonal to the column space. | Rᵐ | m − r |
+
+The row space and null space are orthogonal complements in Rⁿ; the column space and left null space are orthogonal complements in Rᵐ. These direct sums, Rⁿ = C(Aᵀ) ⊕ N(A) and Rᵐ = C(A) ⊕ N(Aᵀ), together with the rank-nullity identity r + (n − r) = n, give a complete picture of how a matrix acts.
+
 ---
 
 ## 6. Inner Product Spaces
@@ -182,7 +204,7 @@ An inner product generalizes the dot product to arbitrary vector spaces, giving 
 2. Linearity: ⟨au + bv, w⟩ = a⟨u, w⟩ + b⟨v, w⟩.
 3. Positive-definiteness: ⟨u, u⟩ ≥ 0, with equality only for u = 0.
 
-The standard examples are Rⁿ with the dot product, Cⁿ with ⟨u, v⟩ = Σ uᵢv̄ᵢ, and L² spaces with ⟨f, g⟩ = ∫ fḡ.
+The standard examples are Rⁿ with the dot product, Cⁿ with ⟨u, v⟩ = Σ uᵢv̄ᵢ, and L² spaces with ⟨f, g⟩ = ∫ fḡ. On Rⁿ an inner product can also be written as xᵀAx for a symmetric positive-definite matrix A, with the ordinary dot product recovered when A is the identity. This matrix-weighted form underlies the Mahalanobis distance and the study of non-Euclidean metrics on Euclidean space.
 
 **Cauchy–Schwarz in inner products.** |⟨u, v⟩| ≤ ‖u‖‖v‖, with equality exactly when u and v are linearly dependent. Proof: the quantity ⟨u, v⟩ − t⟨u, u⟩ is a nonnegative function of t, so its discriminant is nonpositive, which gives (⟨u, v⟩)² ≤ ⟨u, u⟩⟨v, v⟩.
 
@@ -223,7 +245,7 @@ This section moves from a fixed coordinate frame to a changed one, and then to t
 
 **Isomorphism of vector spaces.** An isomorphism is a bijective linear map between two vector spaces. Two finite-dimensional spaces are isomorphic if and only if they have the same dimension. Any choice of bases gives an isomorphism: map the i-th basis vector of one space to the i-th basis vector of the other. All n-dimensional spaces over the same field are therefore structurally the same, and Rⁿ is the universal model of an n-dimensional space.
 
-**Dual space concepts.** The dual space V* of V is the set of all linear functionals on V, maps f: V → F that preserve addition and scalar multiplication. If V is n-dimensional with basis {e₁, …, eₙ}, then V* is also n-dimensional. The dual basis {e₁*, …, eₙ*} is defined by eᵢ*(eⱼ) = δᵢⱼ, and every functional f writes as f(v) = Σ f(eᵢ)eᵢ*(v). The bidual V** is naturally isomorphic to V in finite dimensions.
+**Dual space concepts.** The dual space V* of V is the set of all linear functionals on V, maps f: V → F that preserve addition and scalar multiplication. If V is n-dimensional with basis {e₁, …, eₙ}, then V* is also n-dimensional. The dual basis {e₁*, …, eₙ*} is defined by eᵢ*(eⱼ) = δᵢⱼ, and every functional f writes as f(v) = Σ f(eᵢ)eᵢ*(v). The bidual V** is naturally isomorphic to V: the map that sends each vector v to the functional on V* defined by f ↦ f(v) is an isomorphism that does not depend on any choice of basis, whereas identifying V with its single dual V* does require choosing a basis. This distinction between a natural isomorphism and a basis-dependent one is a recurring theme in the subject.
 
 **Linear functionals.** A linear functional is a map f: V → F that is linear. The space of all of them is V*, and its dimension equals dim V. If T: V → W is a linear map with matrix A, then its dual T*: W* → V* is given by (T*f)(v) = f(Tv) and is represented by Aᵀ. The gradient of a smooth function on V is an element of V*: it is the functional that maps a direction to the directional derivative.
 
