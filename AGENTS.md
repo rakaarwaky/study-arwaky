@@ -5,9 +5,8 @@ current when structure changes.
 
 ## What this repo is
 A personal **lifelong-learning** system. `Q1/` holds the current quarter's
-study plan: 7 specific sub-fields, each one folder with a `field.md` entry
-point and a set of section folders (`Sxx-.../plan.md`). Each quarter rotates
-to a new set of 7 fields; quarters are built "foundational → unlocks next."
+study plan: 7 specific sub-fields, each one folder. Each quarter rotates to a
+new set of 7 fields; quarters are built "foundational → unlocks next."
 
 ```
 Study/
@@ -16,36 +15,36 @@ Study/
 └── Q1/
     ├── README.md      ← quarter index + Mon–Sun rotation + Q2 unlock map
     └── <field>/
-        ├── field.md                       ← entry point: why, resources, 2-h template, order
-        ├── roadmap-sh-*.md                ← optional external reference tree
-        └── Sxx-<slug>/plan.md             ← one folder per roadmap section, full checklist
+        ├── field.md                       ← entry point: why, resources, 2-h template, exit test
+        ├── NN-<slug>/README.md           ← topic fields: one folder per topic, checklist in README.md
+        ├── NN-<slug>/REFERENCE.md        ← topic fields: worked definitions + exercises
+        └── WEEK01..WEEK12/plan.md        ← week fields: one folder per week
 ```
 
 ## The 2-hour daily template
-Every session is the same 4-part block, per the field's `field.md`:
-1. `0:00–0:05` state the one goal ("by end I can explain X")
-2. `0:05–1:00` input (1–2 videos + read, **this field only**)
-3. `1:00–1:50` practice (solve problems / active task, this field only)
-4. `1:50–2:00` write 2–3 English sentences + 1 gap
+Every session is the same 3-part block, per the field's `field.md`:
+1. Input: learn the content for the day's section (read, watch, work examples).
+2. Solve problems on that topic until you can reproduce the method from memory.
+3. Write an essay on what you learned.
 
 ## Hard rules
 - **No context switching:** one field per day, one section at a time. Never
   open a second field the same day.
-- **In-order study:** sections are learned `S01 → S12`. Do not skip ahead.
-- **Core vs stretch:** `S01–S08` is the quarter core (unlocks next quarter);
-  `S09–S12` is the stretch/backlog tier.
+- **In-order study:** sections are learned in the order listed in the field
+  doc. Do not skip ahead.
 - **Exit test gates completion:** a section/field is "done" only when its
   exit test (in `field.md`) passes, not when the checklist looks full.
 
 ## Editing conventions
-- **Checklists:** each `plan.md` uses `- [ ]` task items. Agents may add
-  `- [x]` as the user checks off concepts; do **not** delete unchecked items.
-- **Notes/Gap boxes:** each `plan.md` ends with `## Notes / log` and
-  `## Gap (...)` free-text sections. Fill as the user learns; keep them.
-- **Don't rename slugs or reorder S-folders** unless the user asks — the
-  `field.md` table and links depend on the `Sxx-<slug>` names.
-- **Links are relative:** `field.md` links to `Sxx-<slug>/plan.md`; keep that
-  shape when adding sections.
+- **Checklists:** each `README.md` (topic fields) or `plan.md` (week fields)
+  uses `- [ ]` task items. Agents may add `- [x]` as the user checks off
+  concepts; do **not** delete unchecked items.
+- **Notes/Gap boxes:** each checklist ends with free-text notes/gap
+  sections. Fill as the user learns; keep them.
+- **Don't rename slugs or reorder section folders** unless the user asks —
+  the `field.md` table and links depend on the folder names.
+- **Links are relative:** `field.md` links to `NN-<slug>/README.md` or
+  `WEEKnn/plan.md`; keep that shape when adding sections.
 - Keep markdown **flat, no nested tables**; one `##` per major block.
 
 ## When adding a new quarter
@@ -57,9 +56,8 @@ Every session is the same 4-part block, per the field's `field.md`:
 ## Writing style
 
 Applies to **all prose in this repo**: `field.md` intros, `plan.md` text,
-the step-4 "write 2–3 sentences + 1 gap" notes, `README.md`, and any new
-docs or release notes. Do not apply it to checklist items, code
-identifiers, commands, or config keys.
+`README.md` intros, and any new docs or release notes. Do not apply it to
+checklist items, code identifiers, commands, or config keys.
 
 Preserve the writer's voice. Make the minimum effective edit.
 
@@ -132,15 +130,14 @@ touched.
 Full style rules: see the "Writing style" section above.
 
 ## Validation / how to check your edits
-- Grep each `Sxx-*/plan.md` for `- [ ]` to confirm checklists survived.
-- Confirm `field.md` section table row-count matches the actual `Sxx` folders
-  (`ls -d S* | wc -l`).
+- Grep each section folder's `README.md` or `plan.md` for `- [ ]` to
+  confirm checklists survived.
+- Confirm `field.md` section table row-count matches the actual section
+  folders (`ls -d */ | wc -l` from the field dir, excluding `reference/`).
 - Markdown lint is not enforced; just keep tables well-formed.
 
 ## Do NOT
 - Don't introduce build tools, code, or dependencies into this repo — it's
   markdown-only, no runtime.
-- Don't "clean up" by removing the external reference trees
-  (`roadmap-sh-*.md`) — they're the source of truth for the checklists.
-- Don't change the 2-h template timing or the no-context-switching rule;
+- Don't change the 3-part daily template or the no-context-switching rule;
   those are the system's core invariants.

@@ -13,10 +13,9 @@ The cell is the unit of all life. Get structure + membrane + transport down and 
 **Molecular Biology of the Cell** (free online edition) — reference only.
 
 ## 2-hour daily template
-- 0:00–0:05 — State goal: "By end I can explain X."
-- 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
-- 1:00–1:50 — **Draw** a cell & a membrane from memory; label parts; 5 recall questions.
-- 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
+- Input: learn the day's topic (1–2 focused videos + read, this field only).
+- Solve: **Draw** a cell & a membrane from memory; label parts; 5 recall questions.
+- Essay: write an essay on what I learned.
 
 ## 12-Week Map
 1. [WEEK01 — Cell Types](WEEK01/plan.md)

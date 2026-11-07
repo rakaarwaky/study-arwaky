@@ -14,10 +14,9 @@ The other 6 Q1 fields *are* your reading material (all in English).
 One book/month on a Q1 topic, read in English.
 
 ## 2-hour daily template
-- 0:00–0:05 — State goal: "By end I can explain X."
-- 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
-- 1:00–1:50 — Write a 1-page English summary of what you read (active recall); record 1–2 min speaking.
-- 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
+- Input: learn the day's topic (read, 1–2 focused clips, this field only).
+- Solve: 1-page English summary of what you read (active recall); record 1–2 min speaking.
+- Essay: write an essay on what I learned.
 
 ## 12-Week Map
 1. [WEEK01 — Active Reading & Annotation](WEEK01/plan.md)

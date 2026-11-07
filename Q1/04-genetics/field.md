@@ -13,10 +13,9 @@ DNA → RNA → protein (central dogma) + inheritance rules are the core of biol
 **DNA from the Beginning** (University of Utah, interactive) — optional.
 
 ## 2-hour daily template
-- 0:00–0:05 — State goal: "By end I can explain X."
-- 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
-- 1:00–1:50 — **Active task:** solve 3 Punnett squares; trace DNA→RNA→protein by hand for a short sequence.
-- 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
+- Input: learn the day's topic (1–2 focused videos + read, this field only).
+- Solve: 3 Punnett squares; trace DNA→RNA→protein by hand for a short sequence.
+- Essay: write an essay on what I learned.
 
 ## 12-Week Map
 1. [WEEK01 — DNA Structure & Replication](WEEK01/plan.md)

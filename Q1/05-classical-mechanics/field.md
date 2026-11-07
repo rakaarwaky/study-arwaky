@@ -13,10 +13,9 @@ Forces, energy, and momentum are the core of physics. Master these and you can r
 Practice: any physics problem set.
 
 ## 2-hour daily template
-- 0:00–0:05 — State goal: "By end I can explain X."
-- 0:05–1:00 — Input: 1–2 focused videos + read (this field only).
-- 1:00–1:50 — Solve 4–5 problems: draw a free-body diagram, find the answer, show work.
-- 1:50–2:00 — Write 2–3 sentences (in English) on what I learned + 1 gap.
+- Input: learn the day's topic (1–2 focused videos + read, this field only).
+- Solve: 4–5 problems — free-body diagram, answer, show work.
+- Essay: write an essay on what I learned.
 
 ## 12-Week Map
 1. [WEEK01 — Kinematics](WEEK01/plan.md)
