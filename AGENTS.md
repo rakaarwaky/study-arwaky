@@ -16,10 +16,19 @@ Study/
     ├── README.md      ← quarter index + Mon–Sun rotation + Q2 unlock map
     └── <field>/
         ├── field.md                       ← entry point: why, resources, 2-h template, exit test
-        ├── NN-<slug>/README.md           ← topic fields: one folder per topic, checklist in README.md
-        ├── NN-<slug>/REFERENCE.md        ← topic fields: worked definitions + exercises
+        ├── <NN>_<slug>.md                 ← topic doc: resource material + task checklist
         └── WEEK01..WEEK12/plan.md        ← week fields: one folder per week
 ```
+
+## Layout convention (topic files)
+Each field keeps its topic docs under its own folder as `resource/<NN>_<snake>.md`
+(learning material) and optionally `task/<NN>_<snake>.md` (checklist).
+Topic docs keep their number and descriptive slug, snake_cased for filenames.
+
+- `01-linear-algebra/` is resource-only: one `resource/<NN>_<snake>.md` per
+  section, no `task/` checklists.
+- `02-basic-statistics/` still uses per-topic folders: `<NN>-<slug>/README.md`.
+- Fields 03–07 use `field.md` + `WEEK01..WEEK12/plan.md`.
 
 ## The 2-hour daily template
 Every session is the same 3-part block, per the field's `field.md`:
@@ -36,27 +45,27 @@ Every session is the same 3-part block, per the field's `field.md`:
   exit test (in `field.md`) passes, not when the checklist looks full.
 
 ## Editing conventions
-- **Checklists:** each `README.md` (topic fields) or `plan.md` (week fields)
-  uses `- [ ]` task items. Agents may add `- [x]` as the user checks off
-  concepts; do **not** delete unchecked items.
+- **Checklists:** each `task/<NN>_<snake>.md` uses `- [ ]` task items.
+  Agents may add `- [x]` as the user checks off concepts; do **not** delete
+  unchecked items.
 - **Notes/Gap boxes:** each checklist ends with free-text notes/gap
   sections. Fill as the user learns; keep them.
 - **Don't rename slugs or reorder section folders** unless the user asks —
-  the `field.md` table and links depend on the folder names.
-- **Links are relative:** `field.md` links to `NN-<slug>/README.md` or
-  `WEEKnn/plan.md`; keep that shape when adding sections.
+  the field doc table and links depend on the folder names.
+- **Links are relative:** task docs live at `task/<NN>_<snake>.md` or
+  `resource/<NN>_<snake>.md`; keep that shape when adding sections.
 - Keep markdown **flat, no nested tables**; one `##` per major block.
 
 ## When adding a new quarter
 1. Make `Qn/` mirroring `Q1/` (README + one folder per field).
-2. Each new field folder = `field.md` + section folders from its source tree.
+2. Each new field folder = `field.md` + topic folders from its source tree.
 3. Update the quarter `README.md` rotation table and "what Qn-1 unlocks" map.
 4. Leave prior quarters untouched (they're archives, not live).
 
 ## Writing style
 
 Applies to **all prose in this repo**: `field.md` intros, `plan.md` text,
-`README.md` intros, and any new docs or release notes. Do not apply it to
+task/resource docs, and any new docs or release notes. Do not apply it to
 checklist items, code identifiers, commands, or config keys.
 
 Preserve the writer's voice. Make the minimum effective edit.
@@ -130,9 +139,9 @@ touched.
 Full style rules: see the "Writing style" section above.
 
 ## Validation / how to check your edits
-- Grep each section folder's `README.md` or `plan.md` for `- [ ]` to
+- Grep each topic folder's `task/<NN>_<snake>.md` or `plan.md` for `- [ ]` to
   confirm checklists survived.
-- Confirm `field.md` section table row-count matches the actual section
+- Confirm the field doc's section table row-count matches the actual section
   folders (`ls -d */ | wc -l` from the field dir, excluding `reference/`).
 - Markdown lint is not enforced; just keep tables well-formed.
 
